@@ -1,0 +1,20 @@
+.header-text {
+  text-align: center;
+}
+
+.section-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlight {
+  background-color: green;
+  color: white;
+}
+
+.first-list-item {
+  color: aqua;
+}
+
+.cross-off {
+  text-decoration: line-through;
+}
