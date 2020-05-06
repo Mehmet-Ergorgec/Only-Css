@@ -1,0 +1,32 @@
+/* http://google-webfonts-helper.herokuapp.com/fonts/montserrat?subsets=latin */
+
+/* Search google web fonts helper to download woff files */
+
+/* Fallback states:
+font-display : block; text wait for render 
+font-display : swap; display fallback font while waiting, mostly used. default
+font-display : fallback; more fast than swap
+font-display : optional; more fast than fallback */
+
+/* Define your custom font styles */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2');
+  src: url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/montserrat-v14-latin-700.woff2') format('woff2');
+  src: url('/fonts/montserrat-v14-latin-700.woff') format('woff');
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal; /* or bold*/
+  padding: 50px;
+}
